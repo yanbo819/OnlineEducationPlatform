@@ -16,7 +16,8 @@ public class SecurityConfig {
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/", "/api/users/login", "/api/users/register").permitAll()
+                .antMatchers("/", "/index.html", "/favicon.ico", "/api/users/login", "/api/users/register").permitAll()
+                .antMatchers(org.springframework.http.HttpMethod.OPTIONS, "/**").permitAll()
                 .antMatchers(org.springframework.http.HttpMethod.GET, "/api/users").permitAll()
                 .anyRequest().authenticated()
                 .and()
