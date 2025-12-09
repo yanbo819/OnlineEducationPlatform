@@ -18,7 +18,7 @@ public class SecurityConfig {
                 .authorizeRequests()
                 .antMatchers("/", "/index.html", "/favicon.ico", "/api/users/login", "/api/users/register").permitAll()
                 .antMatchers(org.springframework.http.HttpMethod.OPTIONS, "/**").permitAll()
-                .antMatchers(org.springframework.http.HttpMethod.GET, "/api/users").permitAll()
+            .antMatchers(org.springframework.http.HttpMethod.GET, "/api/users/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .cors();

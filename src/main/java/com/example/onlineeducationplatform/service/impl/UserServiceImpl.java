@@ -41,15 +41,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getUserByUsername(String username) {
-        // Implement a method in UserMapper for this, or use selectAllUsers and filter
-        // (not efficient)
-        List<User> users = userMapper.selectAllUsers();
-        for (User user : users) {
-            if (user.getUsername().equals(username)) {
-                return user;
-            }
-        }
-        return null;
+        return userMapper.selectUserByUsername(username);
     }
 
     @Override
