@@ -3,6 +3,10 @@
 /Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/mapper/UserMapper.java
 /Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/controller/IndexController.java
 /Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/config/SecurityConfig.java
+/Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/security/JwtAuthenticationFilter.java
 /Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/service/UserService.java
 /Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/controller/UserController.java
+/Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/dto/AuthResponse.java
 /Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/service/impl/UserServiceImpl.java
+/Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/config/CorsConfig.java
+/Users/yanbo/OnlineEducationPlatform/OnlineEducationPlatform/src/main/java/com/example/onlineeducationplatform/security/JwtUtil.java
